@@ -4,19 +4,21 @@ import Homepage from '../pages/Homepage';
 import Event from '../pages/Event';
 import FAQ from '../pages/FAQ';
 
+
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Homepage />
-    },
-    {
-        path: "/Event",
-        element:<Event/>
-    },
-    {
-        path: "/FAQ",
-        element:<FAQ/>
-    },
+  {
+      path: "/",
+      element: <Homepage /> // ใช้ Component ไม่ใช้ JSX
+  },
+  {
+      path: "/Event",
+      element: <Event /> // ใช้ Component ไม่ใช้ JSX
+  },
+  {
+      path: "/FAQ",
+      element: <FAQ /> // ใช้ Component ไม่ใช้ JSX
+  },
+
 ]);
 
 const Routing = () => {
