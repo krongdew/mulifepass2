@@ -3,6 +3,7 @@ import React from 'react'
 import Navbars from '../components/Navbars'
 import ImageSlider from '../components/Slider'
 import Bgcars from '../components/Bgcars'
+import Checkingradient from '../components/Checkingradient'
 
 
 const homepage = () => {
@@ -10,7 +11,7 @@ const homepage = () => {
     <>
     <Navbars />
     <Bgcars />
- 
+    <Checkingradient />
     </>
   )
 }
