@@ -12,7 +12,7 @@ const homepage = () => {
     <Navbars />
     <Bgcars />
     <Checkingradient />
-    <Datatest/>
+   
     </>
   )
 }
