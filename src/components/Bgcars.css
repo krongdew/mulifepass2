@@ -37,7 +37,7 @@
     background: url(../Car/tree.png);
     position:absolute;
     bottom: 90px;
-    left:0;
+    left:0 px;
     right:0;
     display: block;
     z-index: 1;
