@@ -104,7 +104,7 @@ const Navbars = () => {
       </div>
 
       </nav>
-      <ImageSlider id="ImageSlider" />
+      {/* <ImageSlider id="ImageSlider" /> */}
       {/* <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">MULIFEPASS</Navbar.Brand>

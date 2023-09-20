@@ -5,6 +5,8 @@ import Event from '../pages/Event';
 import FAQ from '../pages/FAQ';
 
 
+
+
 const router = createBrowserRouter([
   {
       path: "/",
@@ -18,6 +20,7 @@ const router = createBrowserRouter([
       path: "/FAQ",
       element: <FAQ /> // ใช้ Component ไม่ใช้ JSX
   },
+
 
 ]);
 

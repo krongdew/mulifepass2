@@ -10,16 +10,16 @@ const Datatest = () => {
   // Note: the empty deps array [] means
   // this useEffect will run once
   // similar to componentDidMount()
-  useEffect(() => {
-    fetch("http://localhost:2222/attractions")
-      .then(res => res.json())
-      .then(
-        (result) => {
+  // useEffect(() => {
+  //   fetch("http://localhost:2222/attractions")
+  //     .then(res => res.json())
+  //     .then(
+  //       (result) => {
           
-            setAttractions(result);
-        },
-      )
-  }, [])
+  //           setAttractions(result);
+  //       },
+  //     )
+  // }, [])
 
   return (
     <>
